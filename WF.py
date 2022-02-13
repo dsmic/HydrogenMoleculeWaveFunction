@@ -172,9 +172,6 @@ def optimize(f, point, steps, iter=5):
 
 
 def main():
-#    energy = Energy([0.6, 1, 1])
-#    if integrator.mpi_rank == 0:
-#        print("Energy {:.5f}".format(energy.mean))
     position, energy = optimize(Energy, start_search, step_search, iter=7)
     if integrator.mpi_rank == 0:
         print("final parameters: ", position, " with energy: ", energy)
