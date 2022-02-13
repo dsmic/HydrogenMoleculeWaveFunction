@@ -23,3 +23,7 @@ optional arguments:
   --monte_carlo_evals MONTE_CARLO_EVALS
                         Number of Monte Carlo evaluations, reduce for faster calculation (default 1e6)
 ```
+
+mpirun -np 4 WF.py
+
+will run it with mpi using 4 processes
