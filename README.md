@@ -5,7 +5,12 @@ Easiest way is to use a conda environment and install the dependencies sympy, ve
 
 python WF.py
 
-should calculate the five term version of the paper.
+calculates the five term version of the paper:
+
+final parameters:  [0.675, 0.7, 0.19843750000000002, -0.07500000000000001, -0.0125, 0.17500000000000002]  with energy:  -1.17191(22)
+
+It results in an energy of -1.1719 Hartree, which corresponds to a binding energy of 0.1719 * 2 * 13.6eV = 4.676eV (slightly lower than the experimental value of 4,74eV)
+
 
 
 ```
@@ -26,4 +31,4 @@ optional arguments:
 
 mpirun -n 4 python WF.py
 
-will run it with mpi using 4 processes
+will run it with mpi using 4 processes, if mpi4py is installed
