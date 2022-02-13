@@ -1,5 +1,5 @@
 # HydrogenMoleculeWaveFunction
-The two electron wave function is calculated as in "The Ground State of the Hydrogen Molecule" (Hubert M. James and Albert Sprague Coolidge) J. Chem. Phys. 1, 825 (1933)
+The two electron wave function is calculated as in ["The Ground State of the Hydrogen Molecule" (Hubert M. James and Albert Sprague Coolidge) J. Chem. Phys. 1, 825 (1933)](https://home.uni-leipzig.de/pwm/teaching/ep5_ws1213/literature/James_Coolidge_1933_ground_state_hydrogen_molecule.pdf)
 
 Easiest way is to use a conda environment and install the dependencies sympy, vegas, numba and optionally mpi4py.
 
